@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathish S | Sr. QA Engineer & Automation Specialist</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Sathish S - Sr. QA Engineer with 9+ years in manual testing, automation, CI/CD, DVB, and OTT platforms.">
+    <meta name="keywords" content="QA Engineer, Automation, Selenium, Python, CI/CD, DVB, OTT, Testing">
+    <meta name="author" content="Sathish S">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <!-- Fixed top navigation bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <!-- Logo / Brand Name -->
+            <div class="logo">Sathish.S</div>
+
+            <!-- Desktop Menu Links -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Dark/Light Mode Toggle -->
+                <li><button class="theme-toggle" id="themeToggle" title="Toggle Theme">🌓</button></li>
+            </ul>
+
+            <!-- Mobile Hamburger Menu Icon -->
+            <div class="mobile-menu" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Overlay (hidden by default) -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-menu" id="closeMenuBtn">✕</button>
+        <a href="#home">Home</a>
+        <a href="#journey">Journey</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+        <!-- Animated background gradients -->
+        <div class="hero-bg"></div>
+
+        <div class="hero-content">
+            <!-- Availability Badge -->
+            <div class="hero-badge">
+                <span class="pulse"></span>
+                Available for Opportunities
+            </div>
+
+            <!-- Main Heading -->
+            <h1>
+                Hi, I'm <span class="gradient-text">Sathish S</span>
+            </h1>
+
+            <!-- Typewriter Effect Container -->
+            <div class="hero-subtitle" id="typewriter"></div>
+
+            <!-- Short Bio -->
+            <p class="hero-description">
+                Senior QA Engineer with 9+ years of expertise in manual testing, test automation, 
+                CI/CD pipelines, and DVB/OTT media systems. Currently driving automation excellence 
+                at OVT India with Python, Selenium, and Pytest.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== JOURNEY / ABOUT SECTION ==================== -->
+    <section id="journey">
+        <div class="section-header fade-in">
+            <h2>My Journey</h2>
+            <p>From headend technical support to leading automation initiatives in CI/CD environments</p>
+        </div>
+
+        <div class="journey fade-in">
+            <div class="journey-grid">
+                <!-- Left: Text Content -->
+                <div class="journey-text">
+                    <h3>Building Quality at Scale</h3>
+                    <p>
+                        I started my career managing DVB headend infrastructure and IT networks, 
+                        giving me a deep understanding of media systems from the ground up. Over 9 years, 
+                        I evolved from manual QA into automation engineering, currently architecting 
+                        test frameworks for ONT devices using Python, Pytest, and Selenium.
+                    </p>
+                    <p>
+                        My unique edge combines broadcast media domain expertise (DVB-C, IPTV, OTT, 
+                        streaming protocols) with modern DevOps practices. I'm passionate about 
+                        integrating automated testing into CI/CD pipelines to catch issues before 
+                        they reach production.
+                    </p>
+                    <a href="#experience" class="btn btn-primary" style="margin-top: 1rem;">See Career Timeline</a>
+                </div>
+
+                <!-- Right: Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">9+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Tested</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Companies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Bugs Caught</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE TIMELINE ==================== -->
+    <section id="experience">
+        <div class="section-header fade-in">
+            <h2>Career Timeline</h2>
+            <p>A decade of growth from technical support to senior automation engineering</p>
+        </div>
+
+        <div class="timeline">
+            <!-- Job 1: Current -->
+            <div class="timeline-item">
+                <span class="timeline-date">Nov 2021 — Present</span>
+                <div class="timeline-content">
+                    <h3>Sr. QC/QA Engineer <span class="current-tag">Current</span></h3>
+                    <span class="company">OVT India Pvt. Ltd., Bangalore</span>
+                    <ul>
+                        <li>Leading ONT web application testing (manual & automated) with Python, Pytest, and Selenium</li>
+                        <li>Implementing TR69-CWMP testing using Aprecomm tool for remote device management</li>
+                        <li>Building CI/CD-integrated test automation frameworks for regression and smoke testing</li>
+                        <li>Collaborating with dev teams for root cause analysis and DVB expertise leveraging</li>
+                        <li>Creating dynamic test cases to streamline validation and improve data efficiency</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="timeline-item">
+                <span class="timeline-date">Jun 2018 — Sep 2021</span>
+                <div class="timeline-content">
+                    <h3>QA/QC Engineer & Project Manager</h3>
+                    <span class="company">MR.Ridsys Technologies Pvt. Ltd., Puducherry</span>
+                    <ul>
+                        <li>Developed and tested DVB-C STB, CAS, SMS, and PSI/SI server products</li>
+                        <li>Managed IPTV & OTT R&D projects with end-to-end quality ownership</li>
+                        <li>Built streaming infrastructure with RTMP, HLS, and UDP protocols</li>
+                        <li>Performed UAT, performance testing, and direct field-testing with customers</li>
+                        <li>Led quality checks for web apps, mobile apps (OTT live TV), and DVB-C STB</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Job 3 -->
+            <div class="timeline-item">
+                <span class="timeline-date">Aug 2016 — May 2018</span>
+                <div class="timeline-content">
+                    <h3>Engineer — Headend, IT & Technical Support</h3>
+                    <span class="company">Ridsys, Puducherry</span>
+                    <ul>
+                        <li>Integrated and configured DVB headend devices (Encoder, IRD, IP QAM Modulator)</li>
+                        <li>Managed CAS, SMS, PSI/SI & EPG server integration and broadcaster audits</li>
+                        <li>Handled optical technologies and IT network administration (router, switch, firewall)</li>
+                        <li>Configured and maintained L2/L3 switches and resolved Linux system issues</li>
+                        <li>Installed, configured, and troubleshot enterprise servers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills">
+        <div class="section-header fade-in">
+            <h2>Technical Arsenal</h2>
+            <p>Tools and technologies I use to ensure software quality and reliability</p>
+        </div>
+
+        <div class="skills-grid">
+
+            <!-- Skill Category 1: Automation & CI/CD -->
+            <div class="skill-category fade-in">
+                <h3><span class="icon">🤖</span> Automation & CI/CD</h3>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Python + Selenium</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Pytest Framework</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Robot Framework</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="65"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>CI/CD Pipelines (GitHub Actions/Jenkins)</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                </div>
+
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub Actions</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Jenkins</span>
+                </div>
+            </div>
+
+            <!-- Skill Category 2: DVB & Media -->
+            <div class="skill-category fade-in">
+                <h3><span class="icon">📺</span> DVB & Media Systems</h3>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>DVB-C / DVB Standards</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>IPTV & OTT Platforms</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Streaming Protocols (RTMP/HLS/UDP)</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>TR69-CWMP / ONT Testing</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="82"></div></div>
+                </div>
+
+                <div class="skill-tags">
+                    <span class="skill-tag">CAS</span>
+                    <span class="skill-tag">SMS</span>
+                    <span class="skill-tag">PSI/SI</span>
+                    <span class="skill-tag">EPG</span>
+                    <span class="skill-tag">Aprecomm</span>
+                </div>
+            </div>
+
+            <!-- Skill Category 3: Systems & Networking -->
+            <div class="skill-category fade-in">
+                <h3><span class="icon">🖥️</span> Systems & Networking</h3>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Linux Administration</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Shell Scripting</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Network Administration</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>MySQL / Database Testing</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                </div>
+
+                <div class="skill-tags">
+                    <span class="skill-tag">Ubuntu/CentOS</span>
+                    <span class="skill-tag">Bash</span>
+                    <span class="skill-tag">TCP/IP</span>
+                    <span class="skill-tag">L2/L3 Switches</span>
+                    <span class="skill-tag">Firewall</span>
+                </div>
+            </div>
+
+            <!-- Skill Category 4: Testing Methods -->
+            <div class="skill-category fade-in">
+                <h3><span class="icon">🧪</span> Testing Methodologies</h3>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Manual & Functional Testing</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Regression & Smoke Testing</span>
+                        <span>92%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="92"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Performance & Load Testing</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>UAT & End-to-End Testing</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                </div>
+
+                <div class="skill-tags">
+                    <span class="skill-tag">Jira</span>
+                    <span class="skill-tag">Agile/Scrum</span>
+                    <span class="skill-tag">Test Planning</span>
+                    <span class="skill-tag">Root Cause Analysis</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects">
+        <div class="section-header fade-in">
+            <h2>Featured Projects</h2>
+            <p>Key initiatives I've led and contributed to across my career</p>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Featured Project: CI/CD ONT Automation -->
+            <div class="project-card featured fade-in">
+                <div class="project-header">
+                    <span class="project-badge">🏆 Current Focus</span>
+                    <h3>ONT Automation Framework with CI/CD Integration</h3>
+                    <p>Building a comprehensive test automation suite for Optical Network Terminal (ONT) web applications at OVT India. The framework integrates with CI/CD pipelines to run regression, sanity, and smoke tests automatically on every code commit, reducing release cycle time by 60%.</p>
+                </div>
+                <div class="project-body">
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Selenium</span>
+                        <span class="tech-tag">Pytest</span>
+                        <span class="tech-tag">GitHub Actions</span>
+                        <span class="tech-tag">TR69-CWMP</span>
+                        <span class="tech-tag">Aprecomm</span>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <div class="project-status">
+                        <span class="status-dot"></span>
+                        <span>Active Development</span>
+                    </div>
+                    <span class="project-company">OVT India Pvt. Ltd.</span>
+                </div>
+            </div>
+
+            <!-- Project 2: Raspberry Pi Streaming -->
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <span class="project-badge">📡 Media Tech</span>
+                    <h3>Raspberry Pi 4 Streaming Server</h3>
+                    <p>Designed and deployed a lightweight streaming server on Raspberry Pi 4 supporting RTMP/HLS to UDP conversion and vice versa. Used for lab testing and proof-of-concept for OTT platform development.</p>
+                </div>
+                <div class="project-body">
+                    <div class="project-tech">
+                        <span class="tech-tag">Raspberry Pi</span>
+                        <span class="tech-tag">Linux</span>
+                        <span class="tech-tag">FFmpeg</span>
+                        <span class="tech-tag">RTMP</span>
+                        <span class="tech-tag">HLS</span>
+                        <span class="tech-tag">UDP</span>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <div class="project-status">
+                        <span class="status-dot completed"></span>
+                        <span>Completed</span>
+                    </div>
+                    <span class="project-company">Personal R&D</span>
+                </div>
+            </div>
+
+            <!-- Project 3: IPTV & OTT QA -->
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <span class="project-badge">🌐 Web & Mobile</span>
+                    <h3>IPTV & OTT Platform QA</h3>
+                    <p>End-to-end quality assurance for IPTV and OTT platforms including web applications, mobile live TV apps, and backend streaming infrastructure. Established UAT processes and performance benchmarks.</p>
+                </div>
+                <div class="project-body">
+                    <div class="project-tech">
+                        <span class="tech-tag">Manual Testing</span>
+                        <span class="tech-tag">API Testing</span>
+                        <span class="tech-tag">Load Testing</span>
+                        <span class="tech-tag">Mobile QA</span>
+                        <span class="tech-tag">OTT</span>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <div class="project-status">
+                        <span class="status-dot completed"></span>
+                        <span>Delivered</span>
+                    </div>
+                    <span class="project-company">Ridsys Technologies</span>
+                </div>
+            </div>
+
+            <!-- Project 4: DVB Headend -->
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <span class="project-badge">🔧 Infrastructure</span>
+                    <h3>DVB Headend Integration & Audit</h3>
+                    <p>Integrated and configured complete DVB headend infrastructure including Encoders, IRDs, IP QAM Modulators, CAS, SMS, and EPG servers. Supported broadcaster audits and ensured compliance with DVB standards.</p>
+                </div>
+                <div class="project-body">
+                    <div class="project-tech">
+                        <span class="tech-tag">DVB-C</span>
+                        <span class="tech-tag">CAS/SMS</span>
+                        <span class="tech-tag">PSI/SI</span>
+                        <span class="tech-tag">EPG</span>
+                        <span class="tech-tag">Network Config</span>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <div class="project-status">
+                        <span class="status-dot completed"></span>
+                        <span>Completed</span>
+                    </div>
+                    <span class="project-company">Ridsys</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== BLOG SECTION ==================== -->
+    <section id="blog">
+        <div class="section-header fade-in">
+            <h2>Latest Articles</h2>
+            <p>Insights from my experience in QA, automation, and media technology</p>
+        </div>
+
+        <div class="blog-grid">
+
+            <!-- Blog Post 1 -->
+            <article class="blog-card fade-in" data-blog="cicd">
+                <div class="blog-image">🚀</div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span>Automation</span>
+                        <span>•</span>
+                        <span>5 min read</span>
+                    </div>
+                    <h3>Integrating Pytest with CI/CD: A QA Engineer's Guide</h3>
+                    <p>How I automated ONT testing by connecting Pytest suites to GitHub Actions, enabling automatic regression testing on every pull request...</p>
+                    <a href="#" class="read-more">Read Article →</a>
+                </div>
+            </article>
+
+            <!-- Blog Post 2 -->
+            <article class="blog-card fade-in" data-blog="dvb">
+                <div class="blog-image">📡</div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span>DVB</span>
+                        <span>•</span>
+                        <span>7 min read</span>
+                    </div>
+                    <h3>From DVB Headends to OTT: Evolution of Media Testing</h3>
+                    <p>My journey testing traditional broadcast systems and how that domain knowledge translates to modern streaming platform QA...</p>
+                    <a href="#" class="read-more">Read Article →</a>
+                </div>
+            </article>
+
+            <!-- Blog Post 3 -->
+            <article class="blog-card fade-in" data-blog="streaming">
+                <div class="blog-image">🎥</div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span>Streaming</span>
+                        <span>•</span>
+                        <span>6 min read</span>
+                    </div>
+                    <h3>Building a Test Lab Streaming Server with Raspberry Pi</h3>
+                    <p>Step-by-step guide to setting up RTMP/HLS streaming on Raspberry Pi 4 for QA testing environments, including troubleshooting tips...</p>
+                    <a href="#" class="read-more">Read Article →</a>
+                </div>
+            </article>
+
+            <!-- Blog Post 4 -->
+            <article class="blog-card fade-in" data-blog="tr69">
+                <div class="blog-image">🔌</div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span>Networking</span>
+                        <span>•</span>
+                        <span>4 min read</span>
+                    </div>
+                    <h3>TR-069 CWMP Testing with Aprecomm for ONT Devices</h3>
+                    <p>Practical approaches to testing remote management protocols for optical network terminals using automation tools...</p>
+                    <a href="#" class="read-more">Read Article →</a>
+                </div>
+            </article>
+
+            <!-- Blog Post 5 -->
+            <article class="blog-card fade-in" data-blog="linux">
+                <div class="blog-image">🐧</div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span>Linux</span>
+                        <span>•</span>
+                        <span>5 min read</span>
+                    </div>
+                    <h3>Linux Shell Scripts Every QA Engineer Should Know</h3>
+                    <p>Essential bash scripts for log analysis, test environment setup, and automated reporting that I use daily in my testing workflow...</p>
+                    <a href="#" class="read-more">Read Article →</a>
+                </div>
+            </article>
+
+            <!-- Blog Post 6 -->
+            <article class="blog-card fade-in" data-blog="career">
+                <div class="blog-image">💡</div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span>Career</span>
+                        <span>•</span>
+                        <span>8 min read</span>
+                    </div>
+                    <h3>From Manual Tester to Automation Engineer: My 9-Year Roadmap</h3>
+                    <p>The skills, certifications, and mindset shifts that helped me transition from manual QA to leading automation initiatives...</p>
+                    <a href="#" class="read-more">Read Article →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact">
+        <div class="section-header fade-in">
+            <h2>Let's Connect</h2>
+            <p>Open to opportunities in QA automation, CI/CD, and media technology</p>
+        </div>
+
+        <div class="contact-container fade-in">
+            <p class="contact-intro">
+                Whether you're looking for a senior QA engineer to build your automation framework, 
+                or need expertise in DVB/OTT testing — I'd love to hear from you.
+            </p>
+
+            <div class="contact-grid">
+                <!-- Email -->
+                <a href="mailto:sathishgesh28@gmail.com" class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-label">Email</div>
+                    <div class="contact-value">sathishgesh28@gmail.com</div>
+                </a>
+
+                <!-- Phone -->
+                <a href="tel:+919677978867" class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-label">Phone</div>
+                    <div class="contact-value">+91 96779 78867</div>
+                </a>
+
+                <!-- Skype -->
+                <a href="skype:live:7e73ffb4ae7ac5e0?chat" class="contact-item">
+                    <div class="contact-icon">💬</div>
+                    <div class="contact-label">Skype</div>
+                    <div class="contact-value">live:7e73ffb4ae7ac5e0</div>
+                </a>
+
+                <!-- Location -->
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-label">Location</div>
+                    <div class="contact-value">Bangalore, India - 560087</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="footer-social">
+            <a href="mailto:sathishgesh28@gmail.com" class="social-link" title="Email">✉️</a>
+            <a href="tel:+919677978867" class="social-link" title="Phone">📞</a>
+            <a href="skype:live:7e73ffb4ae7ac5e0?chat" class="social-link" title="Skype">💬</a>
+        </div>
+        <p>© 2026 Sathish S. Built with passion for quality engineering.</p>
+        <p class="footer-tagline">Sr. QA Engineer • Automation • CI/CD • DVB/OTT</p>
+    </footer>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
