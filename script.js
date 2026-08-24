@@ -17,10 +17,12 @@
 
 const roles = [
     "Sr. QA Engineer",
+    "Project Manager",
     "Automation Specialist", 
     "CI/CD Enthusiast",
-    "DVB & OTT Expert",
-    "Python + Selenium Developer"
+    "DVB & OTT Tester",
+    "Python + Selenium Framework Developer",
+    "Python + Pytest Framework Developer",
 ];
 
 let roleIndex = 0;      // Current role index
