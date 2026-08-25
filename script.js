@@ -78,10 +78,10 @@ function toggleTheme() {
 
 // Load saved theme on page load
 function loadTheme() {
-    const savedTheme = localStorage.getItem('theme') || 'dark';
+    // Default theme is LIGHT
+    const savedTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', savedTheme);
 }
-
 
 // =====================================================
 // 3. MOBILE NAVIGATION MENU
