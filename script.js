@@ -364,3 +364,11 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Portfolio website loaded successfully!');
     console.log('📧 Contact: sathishgesh28@gmail.com');
 });
+
+// Track resume downloads
+document.querySelectorAll('a[download]').forEach(link => {
+    link.addEventListener('click', () => {
+        console.log('📄 Resume downloaded!');
+        // You can also add Google Analytics here later
+    });
+});

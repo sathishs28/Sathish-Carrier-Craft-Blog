@@ -1202,3 +1202,41 @@ footer {
         color: #ff0000;
     }
 }
+
+/* ------------------- RESUME DOWNLOAD BUTTON ------------------- */
+
+/* Hero resume button - green accent */
+.btn-resume {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+    border: none;
+}
+
+.btn-resume:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
+}
+
+/* Nav resume link */
+.nav-resume {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981 !important;
+    padding: 0.4rem 0.9rem;
+    border-radius: 50px;
+    font-weight: 600;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    transition: all 0.3s;
+}
+
+.nav-resume:hover {
+    background: rgba(16, 185, 129, 0.2);
+    border-color: #10b981;
+}
+
+/* Mobile: keep nav resume visible */
+@media (max-width: 768px) {
+    .nav-resume {
+        display: none; /* Hidden on mobile, use hero button instead */
+    }
+}
