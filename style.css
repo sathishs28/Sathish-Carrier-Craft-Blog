@@ -1099,3 +1099,106 @@ footer {
         font-size: 0.9rem;
     }
 }
+
+/* ------------------- EDUCATION SECTION ------------------- */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.education-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    transition: all var(--transition-fast);
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+    box-shadow: 0 10px 40px rgba(99, 102, 241, 0.1);
+}
+
+.education-icon {
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    background: var(--bg);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.education-year {
+    display: inline-block;
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--primary);
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.education-percentage {
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--primary);
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.education-content h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.35rem;
+}
+
+.education-stream {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 0.25rem;
+}
+
+.education-school {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .education-card {
+        padding: 1.5rem;
+    }
+}
+
+/* Blinking Red Highlight */
+.education-highlight {
+    display: inline-block;
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    animation: blinkRed 1s infinite;
+}
+
+@keyframes blinkRed {
+    0%, 100% {
+        opacity: 1;
+        color: #ff0000;
+    }
+
+    50% {
+        opacity: 0.25;
+        color: #ff0000;
+    }
+}
